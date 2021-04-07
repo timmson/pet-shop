@@ -1,4 +1,4 @@
-package ru.petshop.promo.task3;
+package ru.petshop.promo.task2;
 
 import java.util.List;
 

@@ -1,5 +1,6 @@
 package ru.petshop.promo.task1;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -27,6 +28,7 @@ class AcceptanceTest {
         );
     }
 
+    @Disabled
     @ParameterizedTest
     @MethodSource("arrange")
     void name(String givenClientType, Integer givenCartAmount, Integer expectedOrderAmount) {
